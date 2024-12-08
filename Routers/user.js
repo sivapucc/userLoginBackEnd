@@ -4,9 +4,9 @@ import bcrypt from "bcrypt";
 
 const router = express();
 
-router.get("/", (req, res) => {
-  res.status(200).json({ data: "working fine" });
-});
+// router.get("/", (req, res) => {
+//   res.status(200).json({ data: "working fine" });
+// });
 
 //Signup
 
